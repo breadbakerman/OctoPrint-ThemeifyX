@@ -98,3 +98,36 @@
 .themeify.discoranged #control-jog-general .slider-horizontal {
     margin: 4px 5px 16px;
 }
+.themeify.discoranged #gcode .progress {
+    width: auto;
+}
+.themeify.discoranged #files .search-query {
+    box-sizing: border-box;
+    width: 100%;
+    height: 30px;
+}
+
+/* FIXED NAVBAR */
+.themeify.discoranged .navbar-static-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+.themeify.discoranged .page-container {
+    margin-top: 50px;
+}
+
+/* NO BORDER RADIUS */
+.themeify.discoranged select, .themeify.discoranged textarea, .themeify.discoranged input[type], .themeify.discoranged pre,
+.themeify.discoranged .progress,
+.themeify.discoranged .btn,
+.themeify.discoranged .modal,
+.themeify.discoranged #tabs_content,
+.themeify.discoranged .input-append .add-on:last-child, .themeify.discoranged .input-append .btn:last-child, .themeify.discoranged .input-append .btn-group:last-child>.dropdown-toggle,
+.themeify.discoranged .input-append input, .themeify.discoranged .input-append select, .themeify.discoranged .input-append .uneditable-input,
+.themeify.discoranged #tab_plugin_filemanager .header,
+.themeify.discoranged .nav-tabs .dropdown-menu
+{
+        border-radius: 0!important;
+}

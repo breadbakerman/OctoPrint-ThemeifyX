@@ -41,7 +41,7 @@ class ThemeifyxPlugin(octoprint.plugin.SettingsPlugin,
 		# for details.
 		return dict(
 			themeifyx=dict(
-				displayName="Themeifyx Plugin",
+				displayName="ThemeifyX",
 				displayVersion=self._plugin_version,
 
 				# version check: github repository
@@ -59,7 +59,7 @@ class ThemeifyxPlugin(octoprint.plugin.SettingsPlugin,
 # If you want your plugin to be registered within OctoPrint under a different name than what you defined in setup.py
 # ("OctoPrint-PluginSkeleton"), you may define that here. Same goes for the other metadata derived from setup.py that
 # can be overwritten via __plugin_xyz__ control properties. See the documentation for that.
-__plugin_name__ = "Themeifyx Plugin"
+__plugin_name__ = "ThemeifyX"
 
 def __plugin_load__():
 	global __plugin_implementation__
